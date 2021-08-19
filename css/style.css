@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 1200px;
+    margin: auto;
+      margin-top: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-list{
+    display: flex;
+    list-style: none;
+    width: 470px;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+.menu-list > li:hover{
+    color:  #F38181;
+
+    border-bottom: 3px solid  #F38181;
+  padding-bottom: 10px;
+} 
+.hero{
+    width: 275px;
+    height: 136px;
+     margin: auto;
+     margin-top: 68px;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+    
+}
+.hero > h1{
+  margin-top: 20px;  
+  font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+}
+.hero > p{
+    font-family: 'Kaushan Script', cursive;
+}
+    span{
+       color: #95E1D3;
+       font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   font-size: 30px;
+    }
+.hero > div{
+    width: 60px;
+    height: 4px;
+    background-color:  #F38181;
+    margin: auto;
+
+}
+
+.galery-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.galery-item{
+    display: flex;
+    width: 331px;
+    margin-bottom: 100px;
+  
+}
+
+.galery-item:not(:nth-child(3n)){
+margin-right: 70px;
+}
+
+.galery-foto{
+    margin-right: 17px;
+    width: 37px;
+    height: 37px;
+}
+.text-before-fotoes{
+    width: 1104px;
+     margin: auto;
+  color: #B6B6B6;
+  text-align: center;
+}
+.spisok-fotoes-with-people{
+    display: flex;
+   justify-content: space-evenly;
+}
+.photo{
+    list-style: none;
+    margin-top: 27px;
+}
+.name-under-foto{
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
+}
+.what-human-do{
+     text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 11px;
+   color: #B6B6B6;
+
+}
+.text-footer{
+    margin-top: 279px;
+      margin-left: 90px;
+}
+.word{
+    color: red;
+    font-size: 14px;
+    font-weight: 400;
+  
+}
+footer{
+    width: 1200px;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px  solid #B6B6B6;
+    padding-top: 10px;
+}
+.subscribe{
+    display: flex;
+   
+}
+
+
+
+
+.subscribe > input{
+padding: 12px 0px 11px 10px;
+border: 1px solid #B6B6B6;
+border-right: none;
+}
+.subscribe > button{
+    padding: 11px 38px 12px 38px;
+    
+    border: none;
+    color: white;
+    background-color: #95E1D3;
+
+}
+
+.footer-descripteon{
+    display: flex;
+    align-items: center;
+}
+.small-text{
+    color: red;
+    padding-left: 3px;
+}
